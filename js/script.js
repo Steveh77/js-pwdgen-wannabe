@@ -4,16 +4,16 @@
 // infine scrivi nella pagina nomecognomecolorepreferito21
 
 
-const password = document.getElementById('result')
+const password = document.getElementById('result');
 
 const Name = prompt("come ti chiami");
 console.log(Name);
 
-const lastName = prompt("qual è il tuo cognome?")
+const lastName = prompt("qual è il tuo cognome?");
 console.log(lastName);
 
-const favouriteColor = prompt("qual è il tuo colore preferito?")
-console.log(favouriteColor)
+const favouriteColor = prompt("qual è il tuo colore preferito?");
+console.log(favouriteColor);
 
-password.innerText = Name + lastName + favouriteColor + "21"
-
+password.innerText ="La tua password è: " + Name + lastName + favouriteColor + "21";
+console.log(password);
